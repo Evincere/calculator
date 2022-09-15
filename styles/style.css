@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Calculator";
+  src: url("/resources/fonts/calculator/Calculator.woff") format("woff"),
+    url("/resources/fonts/calculator/Calculator.ttf") format("truetype");
+}
+body {
+}
+/* calculadora */
+.calculadora {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+}
+section.superior {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  height: 50%;
+}
+.menu-superior {
+  height: 18%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+}
+.menu-superior img {
+  width: 40px;
+  height: auto;
+  background-color: gray;
+}
+.pantalla {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  font-family: Calculator;
+  font-size: 5em;
+  padding-right: 0.2em;
+  color: rgba(0, 189, 51, 0.468);
+}
+section.inferior {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  height: 50%;
+  background-color: black;
+}
